@@ -225,7 +225,35 @@ footer span {
 
 /* Desktop: */
 @media all and (min-width: 1200px) {
+	header {
+		display: flex; 
+		justify-content: space-between; 
+		align-items: center; 
+		flex-flow: row wrap; 
+		width: 100%; 
+		text-align: center; 
+	}
 
+	header h1 {
+		width: 30%;
+		padding: 0;
+		border-bottom: none;
+		text-align: left; 
+	}
 
+	header nav {
+		width: 40%; 
+		padding: 20px 0;
+	}
 
+	header nav ul {
+		display: flex;
+		justify-content: space-between; 
+	}
+
+	.section-two {
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+		}
+		
 }
