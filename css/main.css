@@ -132,6 +132,23 @@ header nav ul li a{
 
 .section-one h3 {
 	padding: 10px 0;
+	text-align: left; 
+}
+
+.section-two h3 {
+	padding: 10px 0;
+	text-align: left; 
+	padding-left: 30px; 
+}
+
+.section-three h3 {
+	padding: 10px 0;
+	text-align: left; 
+	padding-left: 30px; 
+}
+
+.reviews, .contact {
+	text-align: left; 
 }
 
 .section-two {
@@ -174,4 +191,41 @@ footer span {
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: 0.88em; /*14px*/
+}
+
+
+
+/* Media Queries Below */
+
+/* Tablets: */
+@media all and (min-width: 768px) {
+	.bottom-section {
+		justify-content: space-between; 
+		align-items: flex-start; 
+	}	
+	.section-one {
+		flex-basis: 33%; 
+	}
+	.section-two {
+		flex-basis: 33%; 
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+			
+	}
+	.section-three {	
+		flex-basis: 33%; 
+	}
+}
+
+}
+
+
+
+
+
+/* Desktop: */
+@media all and (min-width: 1200px) {
+
+
+
 }
